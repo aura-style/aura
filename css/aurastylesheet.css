@@ -1,0 +1,101 @@
+body{
+	background-color: black;
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-position: 320px 0px;
+	padding: 10px;
+}
+img{
+	display: block;
+	width: 30%;
+	margin: 0 auto;
+	margin-top: 90px;
+	height: 30%;
+}
+@font-face{
+	font-family: thinoobold;
+	src: url(../fonts/thinoobold.otf);
+}
+h1{
+	position: relative;
+	color: white;
+	display: block;
+	width: 10em;
+    margin-right: 300px;
+    margin-left: 500px;
+    padding: 190px 0px 0px 0px;
+    font-family: thinoobold;
+    font-size: 50px;
+    font-style: bold;
+}
+#adress{
+	color: white;
+	padding-bottom: 90px;
+	width: 15em;
+	padding-left: 110px;
+	margin-left: auto;
+	margin-right: auto;
+	visibility: hidden;
+	transition: visibility 0.1s;
+}
+.title:hover + #adress{
+	visibility: visible;
+}
+h3{
+	color: white;
+	display: block;
+	font-family: cursive;
+	font-style: italic;
+	font-size: 15px;
+	transition: background-image color 1s;
+	margin-left: auto;
+    margin-right: auto;
+    width: 18em
+}
+h3:hover{
+	background-image: linear-gradient(to right, #eec3dd, #dec4db, #d1c3d4, #c6c2cb, #c0c0c0);
+	color: black;
+}
+@font-face{
+	font-family: Tanha;
+	src: url(../fonts/Tanha.ttf);
+}
+h4{
+	display: block;
+	text-align: center;
+	font-family: Tanha;
+	font-size: 13px;
+	margin-top: 40px;
+	text-decoration: none;
+	margin-left: auto;
+    margin-right: auto;
+    width: 15em
+}
+a{
+	display: block;
+	font-family: Tanha;
+	width: 15%;
+	text-decoration: none;
+	margin-right: 60%;
+	color: white;
+	padding: 10px;
+	transition: background-image color border-color 1s linear;
+	padding: 20px 0px 20px 100px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 18em;
+	margin-top: 20px;
+}
+a:hover{
+background-image: linear-gradient(to right, #c0c3c8, #b9c8d5, #accee0, #9bd6e5, #8adde5);
+color: black;
+}
+div>h4{
+	transition: background-image color border-width 1s;
+	color: white;
+}
+div>h4:hover{
+	 background-image: linear-gradient(to right, #ffb9b3, #f2beb4, #e4c1b8, #d6c5be, #c9c7c6);
+	 color: black;
+	 border-width: 0px 5px;
+}
